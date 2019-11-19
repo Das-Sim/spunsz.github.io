@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Head-->
+    <head>
+        <meta charset="UTF-8">
+        <title>David Simar</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="Stylesheet/main.css">
+    </head>
+<!--Body-->
+    <body class="Background">
+
+<!--Nav Bar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+<!--Home-->
+        <br> <!-- Breaks inserted to add space between navbar and first heading -->
+        <br>
+
+<!--Video-->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video"> <!--Makes the video play automatically on a loop with no sound-->
+                <source src="Stylesheet/Video/Typing1.mp4" type="video/mp4">
+                Your browser does not support HTML5 video. <!--Display message if video fails to run.-->
+                </video>
+        </div>
+<!--Video Text-->
+        <div class="Video_Text">
+            <h3>David Simar's Portfolio</h3>
+                <p>
+                    <strong>
+                        <center>
+                            <q>The computer programmer is a creator of universes for which he alone is the lawgiver.
+                            <br>No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or
+                            <br>field of battle and to command such unswervingly dutiful actors or troops.                   
+                            </q>
+                            <br>-Joseph Weizenbaum<br>
+                            <br>
+                            My name is David Simar. Welcome to my portfolio website. On it, I will tell you about my background and experience.<br>
+                            <br>Thank you for stopping by and enjoy!
+                        </center>
+                    </strong>
+                </p>
+        </div>
+<!--About Section-->
+        <div class="Row" id="About">
+            <div class="Column_2">  <!--Left Column-->
+                <a href="https://steamcommunity.com/profiles/76561198836118441/" target="_blank"><img src="Stylesheet/Images/Development.jpg" alt="Laptop"></a>
+            </div>
+            <div class="Column_1"> <!--Right Column-->
+                <h1>About</h1>
+                    <p>I am a software developer who loves to code! 
+                        Being an avid video-game player, I enjoy time with friends and family as well as learning about game development. I also enjoy travelling, sports, and the outdoors. 
+                        <br><br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, with training and experience in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. 
+                        <br><br>I am a full-stack developer and would love to work with you on your project. 
+                        <a href="#Contact">Contact</a> me below!
+                    </p>
+            </div>
+        </div>
+<!--GitHub section-->
+        <div class="Row" id="GitHub">
+            <div class="Column_1"> <!--Left Column-->
+                <h1>GitHub</h1>
+                    <p>You can view some of my coding projects on GitHub! This button is a link to my profile!<br>
+					<!-- Utilizing Bootstrap 4 -->
+                    <center> <a type="button" class="btn btn-secondary btn-lg" data-containers="body" data-toggle="popover" data-placement="bottom" data-content="See you there!"<a href="https://github.com/allDasy" target="_blank">David Simar GitHub</a></a></center></p>
+            </div>
+            <div class="Column_2"> <!--Right Column-->
+                <a href="https://github.com/allDasy" target="_blank"><img src="Stylesheet/Images/GitHub.png" alt="GitHub"></a>
+            </div>
+        </div>
+<!--Contact Section-->
+        <div class="Row" id="Contact">
+            <div class="Column_3"> <!-- Contact image, left column -->
+                <a href="https://www.facebook.com/david.simar.1" target="_blank"><img src="Stylesheet/Images/Contact.jpg" alt="Contact_Image"></a>
+            </div>
+            <div class="Column_1"> <!-- Contact form, right "column" -->
+                <h1>Contact</h1>
+                    <form action="" method="get"> <!-- This specifies where to send the form data and how; it is left blank -->
+                        <label>Name:</label>
+                            <input type="text" placeholder="Please enter your name here">
+                        <label>Email:</label>
+                            <input type="text" placeholder="Please enter your email here">
+                        <label>Message:</label>
+                            <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                            <input type="submit" value="Submit">
+                    </form>
+            </div>
+        </div>
+<!--Footer Section-->
+        <footer>
+            <p>
+                <center>&copy Prosper Consulting Inc., <a href="https://learncodinganywhere.com/">The Tech Academy</a></center><br>
+            </p>
+        </footer>
+		<!-- Bootstrap 4 Jquery and JavaScript goes here -->
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+		<script>
+			$(function () {
+  $('[data-toggle="popover"]').popover()
+})
+		</script>
+		
+     </body>
+</html>
