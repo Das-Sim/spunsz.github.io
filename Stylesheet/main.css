@@ -100,7 +100,7 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
     letter-spacing: 1px; /* This expands the text slightly */
-    font-size: 20px;
+    font-size: 18px;
     padding-left: 20px;
     padding-right: 20px;
     color: rgba(255, 255, 255, 0.589);
@@ -138,12 +138,12 @@ img {
 /*Contact form*/
 input[type=text] { /* This covers the input sections of the contact form */
     width: 100%;
-    padding: 12px;
+    padding: 8px;
     border: 1px solid #ccc; /* We are setting a solid border and its colors */
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
-    margin-bottom: 16px;
+    margin-bottom: 5px;
     resize: vertical; /* This specifies how an element is resized; vertical allows the user to resize the height of the element */
     font-family: Perpetua, Rockwell Extra Bold;
 }
